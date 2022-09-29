@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  color: #fff; 
+}
+
+h1 {
+  /* text-shadow: 1px 1px 4px greenyellow; */
+  animation: blink infinite 1s linear;
+  font-size: 50px;
+}
+
+@keyframes blink{
+  0%{text-shadow: 1px 5px 10px maroon;
+  color: black;
+font-size: 60px;}
+  100%{text-shadow: none;
+  color: transparent;}
+}
